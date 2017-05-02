@@ -1,0 +1,35 @@
+{
+  "name": "atishamte/Piexl",
+  "description": "PHP wrapper of phpexcel library",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "PHP Excel Wrapper",
+    "PHP Excel",
+    "Excel",
+    "Excel Import",
+    "Excel Export",
+    "Import",
+    "Export"
+  ],
+  "homepage": "https://github.com/atishamte",
+  "time": "2017-05-02",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Atish Amte",
+      "email": "atishamte@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability":"dev",
+  "require": {
+    "php": ">=5.6",
+    "phpoffice/phpspreadsheet": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "atishamte\\Piexl\\": "Piexl/"
+    }
+  }
+}
